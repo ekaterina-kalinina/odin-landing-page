@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 body {
-  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .header-logo {
@@ -14,4 +17,52 @@ body {
 
 .crowd-photo {
   width: 400px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.hero-area, footer {
+  background-color: #1f2937;
+}
+
+.hero-area {
+  padding: 10px 200px 100px 200px;
+}
+
+footer {
+  padding: 40px 200px;
+  text-align: center;
+}
+
+li, h1, h3, p, button, a {
+  color: white;
+}
+
+button {
+  background-color: #3882F6;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-content {
+  flex: 1;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
 }
