@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
+  gap: 20px;
 }
 
 .hero-area, footer {
@@ -27,11 +28,11 @@ header {
 }
 
 .hero-area {
-  padding: 10px 200px 100px 200px;
+  padding: 10px 10vw 100px 10vw;
 }
 
 footer {
-  padding: 40px 200px;
+  padding: 40px 10vw;
   text-align: center;
 }
 
@@ -70,6 +71,8 @@ button:hover {
 ul {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-content {
@@ -77,6 +80,8 @@ ul {
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 h1 {
@@ -107,5 +112,6 @@ p, li {
 
 .crowd-photo {
   min-width: 270px;
-  width: 400px;
+  max-width: 355px;
+  flex: 1;
 }
