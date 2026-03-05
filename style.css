@@ -100,7 +100,7 @@ h3 {
 
 p, li {
   font-size: 18px;
-  color: #e5e7eb;  
+  color: #e5e7eb;
 }
 
 .subtext {
@@ -126,7 +126,7 @@ h2 {
 }
 
 .band {
-  color: #54575e;  
+  color: #54575e;
   display: flex;
   flex-direction: column;
   gap: 15px;
