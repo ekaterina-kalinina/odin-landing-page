@@ -143,3 +143,24 @@ h2 {
 #lineup ul {
   gap: 50px;
 }
+
+#our-story {
+  background-color: #e5e7eb;
+  padding: 120px 21vw 120px 21vw;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote em {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+blockquote p {
+  color: black;
+  font-size: 23px;
+  text-align: right;
+  font-weight: 700;
+  padding-top: 25px;
+}
