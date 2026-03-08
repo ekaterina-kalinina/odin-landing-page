@@ -164,3 +164,36 @@ blockquote p {
   font-weight: 700;
   padding-top: 25px;
 }
+
+.call-to-action-section button {
+  border: white solid 2px;
+}
+
+.call-to-action-text strong {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.call-to-action-section {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5vw;
+  padding: 2em 6em;
+}
+
+.call-to-action-subtext {
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+#tickets {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 15vw 100px 15vw;
+}
