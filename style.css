@@ -187,10 +187,10 @@ blockquote p {
   gap: 10px;
 }
 
-.call-to-action-text p {
+/* .call-to-action-text p {
   color: #e5e7eb;
   font-size: 12px;
-}
+} */
 
 #tickets {
   background-color: white;
